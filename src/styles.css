@@ -1,18 +1,31 @@
-body {
-  background-color: #363636;
+body, html {
+  height: 100%;
+  background-image: url("./images/background-blur.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgb(37, 37, 37);
   font-family: "Roboto Condensed";
   color: #ffffff;
-  padding-top: 100px;
+  padding-top: 20px;
 }
 
 
-h5 {
+/* .bg-image {
+  background-image: url("./images/background.png");
+  filter: blur(20px);
+  -webkit-filter: blur(8px);
+  height: 100%;
+  background-position: center;
+  background-size: auto;
+} */
+
+.coming-soon-text {
   font-weight: 300;
-  text-align: center;
-  letter-spacing: 30px;
+  letter-spacing: 20px;
+  text-indent: 20px;
 }
 
 .col {
-  text-align: center;
   justify-content: center;
 }
