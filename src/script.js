@@ -1,3 +1,9 @@
+//Activate modal subscribe form;
+$(document).ready(function(){
+    $('.modal').modal();
+  });
+
+ //Set Clock countdown
 var deadline = new Date("Nov 21, 2019 12:00:00").getTime();
 var x = setInterval(function() {
 var now = new Date().getTime();
