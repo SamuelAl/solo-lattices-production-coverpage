@@ -1,4 +1,4 @@
-//Activate modal subscribe form;
+//Activate modal subscribe form (uses jQuery);
 $(document).ready(function(){
     $('.modal').modal();
   });
